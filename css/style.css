@@ -1,3 +1,18 @@
-.row h1 {
-  color: red;
+.header-overall {
+  height: 80px;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.header-hero {
+  height: 350px;
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.box {
+  margin: 10px 10px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid black;
 }
