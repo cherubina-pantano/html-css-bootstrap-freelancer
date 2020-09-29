@@ -1,10 +1,41 @@
-.header-overall,
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER NAVBAR */
+.header-overall .navbar,
 .main-footer {
-  height: 80px;
+  /* height: 80px; */
   background-color: #2c3e50;
   color: #fff;
 }
 
+.header-overall .navbar {
+  border-radius: 0;
+  border: none;
+}
+
+.header-overall [class*="navb"],
+.header-overall [class*="navb"]  li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+
+.header-overall [class*="navb"]  li a:hover {
+  color: #1abc9c;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+/* HERO */
 .header-hero,
 .about {
   height: 100%;
