@@ -24,7 +24,8 @@ section {
 /* BUTTON */
 .bnt {
   padding: 16px 25px;
-  font-size: 21px;
+  margin-bottom: 20px;
+  font-size: 18px;
   border-radius: 5px;
   border-color: transparent;
   transition: background .4s;
@@ -51,7 +52,6 @@ section {
 .bnt.icon-left i {
   margin-right: 5px;
 }
-
 
 /* TYPO */
 h1,
@@ -232,6 +232,43 @@ h3 {
      padding-left: 15px;
    }
  }
+
+/* CONTACTS ME */
+.contact .form-group {
+  margin-bottom: 0;
+}
+
+.contact input,
+.contact textarea {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #2c3e50;
+}
+
+.contact input {
+  padding: 0 5px;
+  height: 60px;
+}
+
+.contact textarea {
+  padding: 20px 5px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+.contact::placeholder {
+  color: #6c757d;
+}
 
 .box {
   margin: 10px 10px;
