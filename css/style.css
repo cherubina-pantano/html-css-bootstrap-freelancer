@@ -4,6 +4,10 @@ body {
 }
 
 /* UTILITIES */
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .section-green {
   background-color: #1abc9c;
   color: #fff;
@@ -13,6 +17,41 @@ body {
    background-color: #2c3e50;
    color: #fff;
 }
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+/* BUTTON */
+.bnt {
+  padding: 16px 25px;
+  font-size: 21px;
+  border-radius: 5px;
+  border-color: transparent;
+  transition: background .4s;
+}
+
+.bnt-primary {
+  background: #1abc9c;
+}
+
+.btn-primary:hover {
+  background: #3d8f7f;
+}
+
+.btn-outline {
+  color: #fff;
+  border: 2px solid;
+}
+
+.btn-outline:hover {
+  background: #fff;
+  border-color: #fff;
+}
+
+.bnt.icon-left i {
+  margin-right: 5px;
+}
+
 
 /* TYPO */
 h1,
@@ -183,7 +222,16 @@ h3 {
    opacity: 1;
 }
 
+/* ABOUT -- per DESKTOP*/
+ @media screen and (min-width:991px) {
+   .about .about-box-left {
+     padding-right: 15px;
+   }
 
+   .about .about-box-right {
+     padding-left: 15px;
+   }
+ }
 
 .box {
   margin: 10px 10px;
@@ -192,9 +240,7 @@ h3 {
   border: 1px solid black;
 }
 
-.bnt {
-  padding: 10px;
-}
+
 
 .main-footer {
   height: 100%;
